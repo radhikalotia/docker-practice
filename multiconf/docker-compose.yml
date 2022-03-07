@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app_service:
+    image: multiconf:v1
+    build: .
+    ports: 
+      - '80:80'
